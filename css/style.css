@@ -1,0 +1,58 @@
+@charset "UTF-8";
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+.main{
+  height: 100%;
+  width: 100%;
+}
+
+/*インプット*/
+.input_area{
+ height: 100%;
+ width: 100%;
+}
+.input{
+  padding-left: 10px;
+  height: 500px;
+  width: 500px;
+}
+.input > li{
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+
+.table{
+  display: table;
+  width: 100%;
+}
+.table > li{
+  display: table-cell;;
+}
+
+.table > li:nth-of-type(1){
+  width: 30%;
+}
+.table > li:nth-of-type(2){
+  width: 70%;
+}
+
+
+
+/*アウトプット*/
+.output_area{
+  height: 100%;
+  width: 100%;
+
+}
